@@ -1,0 +1,43 @@
+# Model training binary weights and checkpoints
+**/adapter_model.safetensors
+**/optimizer.pt
+**/rng_state.pth
+**/scheduler.pt
+**/training_args.bin
+**/trainer_state.json
+**/data-*.arrow
+**/checkpoint-*/
+**/out_1/
+
+# Large data files
+**/*.jsonl
+**/*.csv
+
+# Evaluation results and raw generations
+4. Model Evaluation/raw_generations/
+4. Model Evaluation/results/
+
+# Data generation outputs
+1. Data generation/**/complexity_evolved_openai_batch_out/
+1. Data generation/**/oss_instruct_out/
+1. Data generation/**/self_instruct_openai_batch_out/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
